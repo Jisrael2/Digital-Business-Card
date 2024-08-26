@@ -21,12 +21,12 @@ function App() {
         </div>
         <img className="black--shape" src=".\src\assets\images\black-shape.svg" />
         <span className="owner-info">
-          <big className="black-name">   Jesusetemi</big>
-          <big className="yellow-name">    Akanji</big>
+          <big className="black-name"> Jesusetemi</big>
+          <big className="yellow-name">                Akanji</big>
           <small className="owner-position"> Developer</small>
         </span>
 
-        <div>
+        <div className="contact-info">
           <span>
             <img className="icon--image" src=".\src\assets\images\phone-icon.svg" />
             <small>    2348076169512</small>
@@ -39,7 +39,7 @@ function App() {
           <br/>
           <span>
             <img className="icon--image" src=".\src\assets\images\location-icon.svg" />
-            <small>    16, Aiyedun, Bariga, Lagos, Nigeria.</small>
+            <small>    16, Aiyedun, Bariga, Lagos, <span className="text-overflow">  Nigeria.</span> </small>
           </span>
         </div>
       </div>
